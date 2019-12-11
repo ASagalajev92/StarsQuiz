@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:tag="0"
         android:text="Button0"
+        android:onClick="onClickAnswer"
         app:layout_constraintBottom_toTopOf="@+id/button_v1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -33,6 +34,7 @@
         android:layout_height="wrap_content"
         android:tag="1"
         android:text="Button1"
+        android:onClick="onClickAnswer"
         app:layout_constraintBottom_toTopOf="@+id/button_v2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -43,6 +45,7 @@
         android:layout_height="wrap_content"
         android:tag="2"
         android:text="Button2"
+        android:onClick="onClickAnswer"
         app:layout_constraintBottom_toTopOf="@+id/button_v3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -53,6 +56,7 @@
         android:layout_height="wrap_content"
         android:tag="3"
         android:text="Button3"
+        android:onClick="onClickAnswer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
